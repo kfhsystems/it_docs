@@ -26,26 +26,6 @@ Use the following code to emphasize text:
 - Bold text: __string__ or **string**
 - Italic text: _string_ or *string*
 
-### Mathematical Formula
-Surround mathematical symbols with a dollar sign.
-#### Inline Formula:
-This is an example of an
-inline equation $z=\sqrt{x^2+y^2}$.
-#### Math blocks:
-This is an example of a
-math block
-
-$$
-z=\sqrt{x^2+y^2}
-$$
-#### Math blocks with labels:
-This is an example of a
-math block with a label
-
-$$
-z=\sqrt{x^2+y^2}
-$$(eq.1)
-
 
 ### Monospace Font
 Surround text with a grave accent (also called a back single quotation mark):
@@ -65,8 +45,7 @@ Any subsequent text is indented until the next carriage return.
 No indenting again.
 
 ### Notes
-Using the MyST extension will not work here because of the "*.md" extension:
-```{note}
+```note
 Most Python programmers follow the snake_case naming convention, which involves using underscores (_) to separate multiple words. However, the recommended naming convention for Python classes is the PascalCase, where each word is capitalized.
 ```
 
